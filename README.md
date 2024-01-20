@@ -10,7 +10,7 @@
 
 1. 准备一个域名。如 tg.gov.cn
 
-2. 根据 [这里](https://github.com/arm64v8a/NekoXProxy/blob/master/tg.go#L30) 的记录，设置相应数量的子域名记录（目前为 8 个）
+2. 根据 [这里](https://github.com/LiuYi0526/NekoXProxy/blob/master/tg.go#L30) 的记录，设置相应数量的子域名记录（目前为 8 个）
 
 如 `a.tg.gov.cn -> 149.154.175.5` `b.tg.gov.cn -> 95.161.76.100` ......
 
@@ -38,13 +38,13 @@ Need to forward https / websocket by yourself (using CDN as an example)
 
 1. Prepare a domain name. Such as tg.gov.cn
 
-2. According to the records of [here](https://github.com/arm64v8a/NekoXProxy/blob/master/tg.go#L30), set the corresponding number of subdomain records (currently 8)
+2. According to the records of [here](https://github.com/LiuYi0526/NekoXProxy/blob/master/tg.go#L30), set the corresponding number of subdomain records (currently 8)
 
 Such as `a.tg.gov.cn -> 149.154.175.5` `b.tg.gov.cn -> 95.161.76.100` ......
 
 3. Turn on CDN acceleration, turn on tls and websocket support
 
-4. Construct the payload in order to get `a, b, c, d, e, f, g, h`
+4. Construct the payload in order to get `a,b,c,d,e,f,g,h`
 
 5. Encode the payload with base64 to get `YSxiLGMsZCxlLGYsZyxo`
 
